@@ -13,7 +13,7 @@ docker run -t -p 5173:5173 docker-react
 
 
 ## Run the container with port mapping and adding docker volumes using the -v flag
-`` bash 
+```bash 
 docker run -t -p 5173:5173 -v "$(pwd):/app docker-react"
 ```
 ### the command above creates a local storage 
